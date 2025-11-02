@@ -1,5 +1,5 @@
 {
-  "name": "1028N- EveryBanana ",
-  "description": "An AI-powered image editing tool that allows you to apply single or multiple prompts to a batch of images, leveraging the Gemini API to generate creative variations.",
+  "name": "EveryBanana",
+  "description": "Create slide illustrations from a text prompt.",
   "requestFramePermissions": []
 }

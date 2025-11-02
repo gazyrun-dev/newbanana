@@ -1,60 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DrexBanana 🍌</title>
+    <title>EveryBanana</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Lexend', 'sans-serif'],
-            },
-            colors: {
-              'light-bg': '#F5F5F5',
-              'light-text': '#111111',
-              'dark-bg': '#111111',
-              'dark-text': '#F5F5F5',
-              'accent-1': '#FFD60A',
-              'accent-2': '#FF7B00',
-              'accent-3': '#00C853',
-              'light-error': '#D50000',
-              'dark-error': '#FF5252',
-            },
-          },
-        },
-      }
-    </script>
-    <style>
-        body {
-            font-family: 'Lexend', sans-serif;
-        }
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        .dark ::-webkit-scrollbar-thumb { background: #F5F5F5; border-radius: 4px; }
-        .light ::-webkit-scrollbar-thumb { background: #111111; border-radius: 4px; }
-    </style>
   <script type="importmap">
 {
   "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0"
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
   }
 }
 </script>
 <link rel="stylesheet" href="/index.css">
 </head>
   <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
